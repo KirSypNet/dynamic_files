@@ -1,0 +1,35 @@
+.field-item-display-block {
+  display: block !important;
+}
+
+.dynamic_list_container {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #c4c7cc;
+  border-radius: var(--ui-field-border-radius, 1px);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.dynamic_list_container .dynamic_list_item {
+  padding: 10px 15px;
+  transition: 220ms all ease;
+  color: #424956;
+  cursor: pointer;
+  font: 15px / 17px
+    var(--ui-font-family-primary, var(--ui-font-family-helvetica));
+}
+
+.dynamic_list_container .dynamic_list_item_selected {
+  background: #2e2e2e;
+  color: white;
+}
+
+.dynamic_list_container .dynamic_list_item:hover {
+  background: rgb(185, 185, 185);
+  color: black;
+}
+.crm-entity-card-container-content .main-ui-select-name {
+  max-width: 100%;
+}
