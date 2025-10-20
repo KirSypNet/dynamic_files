@@ -80,9 +80,9 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_admin_a
     <form method="POST" action="<?= $APPLICATION->GetCurPage() ?>">
         <?= bitrix_sessid_post() ?>
 
-        <!-- Динамический список -->
+        <!-- Динамические файлы -->
         <div class="fieldsunit">
-            <label>Динамический список:</label>
+            <label>Динамические файлы:</label>
         </div>
         <label for="deal_category_id_dynamic_list">Воронка для динамических файлов: </label>
         <select name="deal_category_id_dynamic_list" id="deal_category_id_dynamic_list">
